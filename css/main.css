@@ -2015,8 +2015,8 @@ body.search-is-visible {
 
 @media only screen and (max-width:900px) {
    .header__logo img {
-      width: 250px;
-      height: 45px;
+      width: 450px;
+      height: 50px;
    }
 
 }
@@ -2035,8 +2035,8 @@ body.search-is-visible {
    }
 
    .header__logo img {
-      width: 225px;
-      height: 40px;
+      width: 450px;
+      height: 50px;
    }
 
    .header__social {
@@ -2075,8 +2075,8 @@ body.search-is-visible {
    }
 
    .header__logo img {
-      width: 200px;
-      height: 36px;
+      width: 450px;
+      height: 50px;
    }
 
    .header__toggle-menu {
@@ -2093,7 +2093,7 @@ body.search-is-visible {
 
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
    .s-pageheader {
       min-height: 78px;
    }
@@ -2103,8 +2103,8 @@ body.search-is-visible {
    }
 
    .header__logo img {
-      width: 160px;
-      height: 29px;
+      width: 450px;
+      height: 50px;
    }
 
    .header__toggle-menu {
