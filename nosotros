@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Gerenciando el Proceso de Innovación</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                    <a class="logo" href="inicio.html">
+                        <img src="images/logo.png" alt="Homepage">
+                    </a>
+                </div> <!-- end header__logo -->
+
+                <ul class="header__social">
+                    <li>
+                        <img src="images/es.jpg" width="15" height="10" alt="español">
+                    </li>
+                    <li>
+                        <img src="images/en.jpg" width="15" height="10" alt="ingles"> 
+                    </li>
+                </ul> <!-- end header__social -->
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menú</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Navegación</h2>
+
+                    <ul class="header__nav">
+                        <li class="current"><a href="inicio.html" title="">Inicio</a></li>
+                        <li><a href="about.html" title="">Nosotros</a></li>                        
+                        <li class="has-children">
+                            <a href="#0" title="">Entregables</a>
+                            <ul class="sub-menu">
+                            <li><a href="entregable1.html">Entregable 1</a></li>
+                            <li><a href="entregable2.html">Entregable 2</a></li>
+                            <li><a href="entregable3.html">Entregable 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="style-guide.html" title="">Referencias</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">Mapa Conceptual</a>
+                            <ul class="sub-menu">
+                            <li><a href="single-video.html">Video Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="style-guide.html" title="">Bibliografía</a></li>
+
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+    </section> <!-- end s-pageheader -->
+
+
+    <!-- s-content
+    ================================================== -->
+    
+
+    <!-- s-extra
+    ================================================== -->
+    <section class="s-extra">
+
+        <div class="row top">
+            
+            <div class="col-four md-six tab-full about">
+                <h3>Extra</h3>
+                <p>
+                extra
+                </p>
+            </div> <!-- end about -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-extra -->
+
+
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+       <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="text-center s-footer__copyright">
+                        <span>© Copyright 2018</span> 
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
