@@ -3614,7 +3614,7 @@ footer h4::after {
 
 .s-content__main img {
    max-width: 960px;
-   margin: 3rem 0 3rem -6rem;
+   margin: 1rem 1rem 1rem 1rem;
 }
 
 
@@ -3863,7 +3863,7 @@ footer h4::after {
 
    .s-content__main img {
       max-width: 900px;
-      margin: 3rem 0 3rem -5rem;
+      margin: 1rem 1rem 1rem 1rem;
    }
 
 }
@@ -3884,7 +3884,7 @@ footer h4::after {
 
    .s-content__main img {
       max-width: 800px;
-      margin: 3rem 0 3rem -4rem;
+      margin: 1rem 1rem 1rem 1rem;
    }
 
 }
@@ -3901,7 +3901,7 @@ footer h4::after {
 
    .s-content__main img {
       max-width: 100%;
-      margin: 3rem 0 3rem;
+      margin: 1rem 1rem 1rem 1rem;
    }
 
 }
