@@ -3607,7 +3607,7 @@ footer h4::after {
  * ## content main
  * ------------------------------------------------------------------- */
 .s-content__main {
-   margin-top: 6rem;
+   margin-top: 1rem;
    padding-left: 6rem;
    padding-right: 6rem;
 }
