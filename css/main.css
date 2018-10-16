@@ -2886,13 +2886,13 @@ html.no-csstransitions .featured {
 }
 
 .s-content__header {
-   padding-bottom: 1rem;
+   padding-bottom: 0rem;
    text-align: center;
 }
 
 .s-content__header h1 {
    font-size: 4.8rem;
-   line-height: 0.25;
+   line-height: 1.25;
    margin-top: 0;
    letter-spacing: -.15rem;
 }
