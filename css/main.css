@@ -3607,14 +3607,14 @@ footer h4::after {
  * ## content main
  * ------------------------------------------------------------------- */
 .s-content__main {
-   margin-top: 3rem;
+   margin-top: 6rem;
    padding-left: 6rem;
    padding-right: 6rem;
 }
 
 .s-content__main img {
    max-width: 960px;
-   margin: 1rem 1rem 1rem 1rem;
+   margin: 3rem 0 3rem -6rem;
 }
 
 
@@ -3863,7 +3863,7 @@ footer h4::after {
 
    .s-content__main img {
       max-width: 900px;
-      margin: 1rem 1rem 1rem 1rem;
+      margin: 3rem 0 3rem -5rem;
    }
 
 }
@@ -3884,7 +3884,7 @@ footer h4::after {
 
    .s-content__main img {
       max-width: 800px;
-      margin: 1rem 1rem 1rem 1rem;
+      margin: 3rem 0 3rem -4rem;
    }
 
 }
@@ -3901,7 +3901,7 @@ footer h4::after {
 
    .s-content__main img {
       max-width: 100%;
-      margin: 1rem 1rem 1rem 1rem;
+      margin: 3rem 0 3rem;
    }
 
 }
