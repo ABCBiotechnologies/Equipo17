@@ -285,7 +285,8 @@ function googleTranslateElementInit() {
                 <p align="justify">
                 1. Encabezado de la página web</br></br>
                 Para comenzar a crear una nueva página web HTML, se debe abrir un editor de texto, como el Bloc de notas. Para nuestra web utilizamos un Template cuya fuente se menciona al final de esta documentación. Una vez que se haya abierto el nuevo archivo, se puede comenzar escribiendo este código. </br></br>
-                <pre><code>
+                
+                <code>
                 &lt;!DOCTYPE HTML&gt;
                 &lt;HTML&gt;
                 &lt;HEAD&gt;
@@ -296,75 +297,94 @@ function googleTranslateElementInit() {
                 &lt;BODY&gt;
                 &lt;/BODY&gt;
                 &lt;/HTML&gt;
-                </code></pre>
+                </code>
+                
                 Explicación: </br></br>
                 &lt;! DOCTYPE HTML&gt; define que el documento debe ser HTML. </br>
                 &lt;HTML&gt; es el elemento principal de la página HTML. </br>
                 &lt;HEAD&gt; es la parte donde se inserta información de la web. </br>
                 &lt;TITLE&gt; es el título de la página que se muestra en la parte superior de la página navegador. </br></br>
                 En el campo "contenido" de la metaetiqueta DESCRIPCIÓN se debe ingresar una descripción que sea relevante para la página del sitio, mientras que en el otro campo de la etiqueta KEYWORDS, se ingresan las palabras clave en las que se desea que se encuentre en particular la web que se está creando. </br></br>
+                
                 <pre><code>
                 &lt;BODY&gt; es la parte del documento que contiene la parte "visible" del sitio:
                 </code></pre>
+                
                 Ahora guarde el archivo de bloque y guárdalo como index.html. Una vez guardado, lo abre, se abrirá la página web HTML vacía, pero ya podrá ver el título de la página en la parte superior. </br></br>
                 Debido a que nuestra web usa un Template como guía, los códigos aquí mostrados ayudaran al usuario a interpretar la plantilla que se elija. </br></br>
+                
                 2. Insertar un texto</br></br>
                 Una vez se ha creado el comienzo de la página web se puede comenzar a introducir el contenido. Para ello, el código html del texto debe colocarse entre las etiquetas &lt;BODY&gt; &lt;/ BODY&gt;.</br></br>
                 La etiqueta que se usa para ajustar en su lugar siempre es válida y es &lt;br&gt;. Entonces, si escribo en el bloc de notas: </br></br>
+                
                 <pre><code>
                 Hola &lt;br&gt; esta es una prueba de mi web.
                 </code></pre>
+                
                 Lo que se mostrará en la página será: </br></br>
                 Hola </br> esta es una prueba de mi web </br></br>
                 La &lt;br&gt; inserta un salto de línea. </br>
                 Esta es una etiqueta que no debe abrirse y luego cerrarse. </br></br>
                 Ahora veamos cómo usar etiquetas útiles para el texto: entre las más usadas se puede utilizar negrita, cursiva, subrayado, borrado: &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;del&gt;</br></br>
+                
                 <pre><code>
                 &lt;u&gt;te permite escribir con subrayado&lt;/u&gt;
                 &lt;i&gt;te permite escribir en cursiva&lt;/i&gt;
                 &lt;b&gt;te permite escribir en negrita&lt;/b&gt;
                 &lt;del&gt;te permite cancelar un texto&lt;del&gt;
                 </code></pre>
+                
                 Estas etiquetas deben estar abiertas y cerradas. Se puede usar una a la vez o más etiquetas juntas (no se pueden usar juntas por razones obvias, la etiqueta para subrayar y eliminar). </br></br>
+                
                 3. Color del texto</br></br>
                 Veamos cómo colorear el texto para hacer páginas web HTML atractivas. Se debe adjuntar al texto que se desea colorear la etiqueta SPAN. Por sí solo, la etiqueta SPAN no produce ningún cambio visible en el texto, pero podemos imponer un estilo con CSS. </br></br>
                 Aquí está el código html, el color se puede expresar con el nombre del color en inglés o con el número hexadecimal precedido por el número de la libra. </br></br>
                 Ejemplo: </br></br>
+                
                 <pre><code>
                 &lt;span style="color:blue"&gt; aqui escribe el texto &lt;/span&gt;
                 O
                 &lt;span style="color:#ffff45"&gt; aqui escribe el texto &lt;/span&gt;
                 </code></pre>
+                
                 4. Cambiar tipo de letra</br></br>
                 Para crear un sitio en html que sea fácil de consultar, es útil cambiar la fuente y el tamaño del texto para resaltar un párrafo o no. </br></br>
                 Para ello vamos a usar la etiqueta SPAN que también nos permite modificar partes del texto directamente en el documento HTML. </br></br>
                 De este modo, se usa esta etiqueta a la que se tendrá que sumarle la fuente o nombre del estilo de letra que se desee para el texto tal que así: </br></br>
+                
                 <pre><code>
               	&lt;span style="font-family:verdana"&gt; aquí escribe tu texto &lt;/span&gt;
                 O
                 &lt;span style="font-family:’Comic Sans MS'"&gt; aquí escribe tu texto &lt;/span&gt;
                 </code></pre>
+                
                 5. Cambiar tamaño de letra</br></br>
                 A veces será necesario usar un texto un poco más grande o ligeramente más pequeño que el predeterminado. Aquí también, el tamaño de fuente se indica con el estilo CSS y ya no con el atributo de fuente "tamaño".</br></br>
+                
                 <pre><code>
                 &lt;span style="font-size:12px"&gt;aquí va el texto &lt;/span&gt;
                 </code></pre>
+                
                 Para cambiar el tamaño de la fuente, simplemente cambia el número expresado en píxeles. </br></br>
+                
                 6. Cómo insertar una imagen</br></br>
                 Las imágenes en los sitios web HTML y permitidas en la web son básicamente de tres tipos: GIF , JPG y PNG . Por lo tanto, no uses otros tipos de imágenes (como archivos psd de Photoshop). </br></br>
                 El código para insertar una imagen es: </br></br>
+                
                 <pre><code>
                 &lt;img src="immagine.gif" alt="descripción de la imagen" height="42" width="42"&gt;
                 </code></pre>
+                
                 Reemplaza el nombre "immagine.gif" con el nombre de tu imagen: presta atención a la extensión de la imagen: jpg, gif …</br></br>
+                
                 7. Prueba tu página web</br></br>
                 Una vez comenzado a saber cómo utilizar el lenguaje HTML de manera básica para poder insertar lo escrito en la web y que ésta vaya tomando forma, se puede ir diseñando otros aspectos de la misma como añadir enlaces (con el tag href) o una lista (con el tag ul y li).
                 </p>
 
-                <h3>Fuente Usada</h3>
+                <h3>Fuente utilizada</h3>
                                 
                 <p align="justify">
-                Se utilizo un Template de la pagina https://colorlib.com/ basado en el lenguaje HTML5 y CSS.
+                Se utilizó un Template de la pagina https://colorlib.com/ basado en el lenguaje HTML5 y CSS.
                 </p>
 
         </div> <!-- end row -->
