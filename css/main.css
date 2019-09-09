@@ -3065,6 +3065,213 @@ html.no-csstransitions .featured {
 
 }
 
+/* ===================================================================
+ * # s-extra-title
+ *
+ * ------------------------------------------------------------------- */
+.s-extra-title {
+   background-color: #FFFFFF;
+   padding-top: 2.8rem;
+   padding-bottom: 4rem;
+   font-family: "metropolis-regular", sans-serif;
+   font-size: 1.5rem;
+   line-height: 1.8;
+}
+
+.s-extra-title a {
+   color: #000000;
+}
+
+.s-extra a:hover, .s-extra a:focus {
+   color: #0054a5;
+}
+
+.s-extra-title h3, .s-extra h5 {
+   margin-top: 0;
+}
+
+.s-extra-title h3 {
+   font-size: 2.4rem;
+   line-height: 1.375;
+   margin-bottom: 3rem;
+}
+
+.s-extra-title h5 {
+   font-family: "metropolis-extrabold", sans-serif;
+   font-size: 1.6rem;
+   line-height: 1.3125;
+   margin-bottom: .6rem;
+}
+
+.s-extra-title .top [class*="col-"] {
+   margin-bottom: 4.8rem;
+}
+
+
+/* -------------------------------------------------------------------
+ * ## popular posts
+ * ------------------------------------------------------------------- */
+.s-extra-title .popular__post {
+   position: relative;
+   padding-left: 9.5rem;
+   margin-bottom: 3.3rem;
+   min-height: 5.4rem;
+}
+
+.s-extra-title .popular__thumb {
+   position: absolute;
+   top: .3rem;
+   left: 0;
+}
+
+.s-extra-title .popular__thumb img {
+   height: 6.9rem;
+   width: 6.9rem;
+}
+
+.s-extra-title .popular__meta {
+   font-size: 1.3rem;
+   line-height: 1.615;
+}
+
+
+/* -------------------------------------------------------------------
+ * ## about
+ * ------------------------------------------------------------------- */
+.s-extra-title .about {
+   padding: 0 40px;
+}
+
+.s-extra-title .about p {
+   margin-bottom: 1.5rem;
+}
+
+.s-extra-title .about__social {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-size: 2.4rem;
+}
+
+.s-extra-title .about__social li {
+   display: inline-block;
+   padding-left: 0;
+   margin-right: 9px;
+}
+
+
+/* -------------------------------------------------------------------
+ * ## tags
+ * ------------------------------------------------------------------- */
+.s-extra-title .tags-wrap {
+   max-width: 900px;
+}
+
+.s-extra-title .tags {
+   text-align: center;
+}
+
+.s-extra-title .tagcloud {
+   padding-top: .6rem;
+}
+
+.s-extra-title .tagcloud a {
+   display: inline-block;
+   font-family: "metropolis-extrabold", sans-serif;
+   font-size: 1.3rem;
+   line-height: 3.6rem;
+   text-transform: uppercase;
+   letter-spacing: .2rem;
+   padding: 0 2rem;
+   margin: 0 1.2rem 1.5rem 0;
+   border-radius: 3px;
+   background: #e2e2e2;
+   text-decoration: none;
+   color: #333333;
+   position: relative;
+}
+
+.s-extra-title .tagcloud a:hover, .s-extra .tagcloud a:focus {
+   color: #FFFFFF;
+   background: #151515;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * s-extra
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1200px) {
+   .s-extra-title .top {
+      max-width: 900px;
+   }
+
+   .s-extra-title .popular__posts article:nth-child(n+5) {
+      display: none;
+   }
+
+}
+
+@media only screen and (max-width:1000px) {
+   .s-extra-title .top, .s-extra .tags-wrap {
+      max-width: 800px;
+   }
+
+}
+
+@media only screen and (max-width:800px) {
+   .s-extra-title .top, .s-extra .tags-wrap {
+      max-width: 550px;
+   }
+
+   .s-extra-title .about {
+      padding: 0 15px;
+   }
+
+   .s-extra-title .tags {
+      text-align: left;
+   }
+
+}
+
+@media only screen and (max-width:600px) {
+   .s-extra-title h3, .s-extra .about, .s-extra .tags {
+      text-align: center;
+   }
+
+   .s-extra-title .popular__thumb {
+      left: .6rem;
+   }
+
+   .s-extra-title .popular__thumb img {
+      height: 6.6rem;
+      width: 6.6rem;
+   }
+
+   .s-extra-title .about {
+      padding: 0 10px;
+   }
+
+}
+
+@media only screen and (max-width:400px) {
+   .s-extra-title .popular__post {
+      padding-left: 8.5rem;
+   }
+
+   .s-extra-title .popular__thumb {
+      left: .6rem;
+   }
+
+   .s-extra-title .popular__thumb img {
+      height: 6.3rem;
+      width: 6.3rem;
+   }
+
+   .s-extra-title .about {
+      padding: 0;
+   }
+
+}
 
 /* ===================================================================
  * # s-extra
