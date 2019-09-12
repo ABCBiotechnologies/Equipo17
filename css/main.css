@@ -3179,7 +3179,7 @@ html.no-csstransitions .featured {
    color: #000000;
 }
 
-.s-extra a:hover, .s-extra a:focus {
+.s-extra-title a:hover, .s-extra-title a:focus {
    color: #0054a5;
 }
 
