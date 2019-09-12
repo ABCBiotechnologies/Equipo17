@@ -131,7 +131,6 @@ width: 200px;
 .container-all:target .popup{
     top: 50%;
     left: 50%;
-    transform: rotate(0deg) translate(-50%, -50%);
     visibility: visible;
 }
 
@@ -140,13 +139,10 @@ width: 200px;
     width: 100%;
     max-width: 800px;
     height: 500px;
-    position: relative;
-    display: flex;
     background: white;
     visibility: hidden;
-    top: 50%;
-    left: 50%;
-    transform: rotate(90deg) translate(-150%, 230%);
+    top: -80%;
+    left: -80%;
     transition: all 600ms;
 }
 
