@@ -156,8 +156,8 @@ width: 200px;
     display: flex;
     background: white;
     visibility: hidden;
-    top: -80%;
-    left: -80%;
+    top: 50%;
+    left: 50%;
     transform: rotate(90deg) translate(-150%, 230%);
     transition: all 600ms;
 }
