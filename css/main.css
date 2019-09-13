@@ -136,6 +136,7 @@ width: 200px;
 
 
 .popup{
+    flex-direction: column;
     width: 100%;
     max-width: 800px;
     height: 500px;
