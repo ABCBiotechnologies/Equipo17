@@ -187,8 +187,9 @@
         <div class="popup">
             <img src="images/EA12.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
             <div class="container-text">
-                <h1></h1>
+                <h1>Burn Convolutional Neural Network (B-CNN)</h1>
                 <p align="justify">
+                CNN (Convolutional Neural Network) se trata de tipo de Red Neuronal Artificial con aprendizaje supervisado que procesa sus capas imitando al córtex visual del ojo humano para identificar distintas características en las entradas que en definitiva hacen que pueda identificar objetos o clasificar imágenes. Recientemente, CNN es la tendencia actual de reconocimiento de imágenes en el mundo. CNN no solo es exitoso en algunos tipos generales de imágenes, como escenas naturales, humanas, visuales, sino que también puede usarse en imágenes médicas [55]. La técnica mediante un algoritmo es capaz de clasificar una imagen de una quemadura según sea el grado de profundidad que tenga esta (testing phase), esto lo hace al tener una serie de imágenes como base (training phase).
                 </p>
             </div>
         <a href="#" class="btn-close-popup">X</a>        
@@ -199,8 +200,10 @@
         <div class="popup">
             <img src="images/EA13.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
             <div class="container-text">
-                <h1></h1>
+                <h1>Non-contact photoplethysmography (PPG)</h1>
                 <p align="justify">
+                Las métricas de entrada se basan en tres conjuntos principales de características: características de fotopletismografía (PPG), que identifican el flujo sanguíneo pulsátil en la microcirculación de la piel; características de imagen real (IR), tomadas de una fotografía en blanco y negro de la lesión; y la imagen multiespectral (MSI), que recoge el espectro de reflectancia del tejido en las longitudes de onda de luz visible e infrarroja clave. La clasificación de tejidos se realiza mediante análisis discriminante cuadrático (QDA), una técnica popular de aprendizaje automático [57].</br></br>
+                Clasificación con las características PPG + RI + MSI: Piel sana (azul); Cama viable de la herida(verde); Quemadura superficial(naranja) y; Quemadura profunda(marrón) [57].
                 </p>
             </div>
         <a href="#" class="btn-close-popup">X</a>        
@@ -428,18 +431,18 @@ function googleTranslateElementInit() {
                                 <td class="celda">Tinción H&E/ Microscopía óptica [35][36][37].</td>
                             </tr>
                             <tr>
-                            <td class="celda"><a href="#EA12"></a></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
+                            <td class="celda">Burn Convolutional Neural Network (B-CNN) [55]<a href="#EA12"></a></td>
+                                <td class="celda">Los resultados del experimento mostraron la viabilidad del modelo propuesto B-CNN, ya que se vio que es capaz de implementarlo en un hospital en Vietnam.</td>
+                                <td class="celda">Es un método no invasivo, ya que solo se analizan imágenes de quemaduras a diferentes grados.</td>
+                                <td class="celda">Es capaz de diferenciar correctamente, coincidiendo con el pronóstico del médico en el diagnóstico de una quemadura de tercer grado.</td>
+                                <td class="celda">El preprocesamiento involucra a operadores de patrones binarios locales (LBP)/ Computadora automatizada.</td>
                             </tr>
                             <tr>
-                            <td class="celda"><a href="#EA13"></a></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
+                            <td class="celda">Non-contact photoplethysmography (PPG) [57]<a href="#EA13"></a></td>
+                                <td class="celda">Bajo costo</td>
+                                <td class="celda">Es un método no invasivo, ya que se toman los datos necesarios sin tener contacto con la herida</td>
+                                <td class="celda">Capacidad de distinguir quemaduras superficiales de quemaduras profundas con ayuda de señales infrarrojas e imágenes reales</td>
+                                <td class="celda">Matriz de iluminación LED personalizada/ Un generador de imágenes (CCD Sony, GE141) equipado con una rueda de filtro que contiene ocho filtros de paso de banda óptica (400-1100 nm).</td>
                             </tr>
                             </tbody>
                     </table>
@@ -549,14 +552,14 @@ function googleTranslateElementInit() {
                                 <td class="celda">En la actualidad se han desarrollado una gran cantidad de técnicas in-vitro no invasivas.</td>
                             </tr>
                             <tr>
-                            <td class="celda"></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
+                            <td class="celda">Burn Convolutional Neural Network (B-CNN) [55]</td>
+                                <td class="celda">B-CNN es la adaptación del sistema CNN (Convolutional Neural Network) para ser un método automatizado de clasificación de imágenes de quemaduras en 4 grados.</td>
+                                <td class="celda">La tecnología se utilizó en un hospital remoto en Vietnam en donde el servicio es deficiente. Los médicos utilizaron este módulo asistido por computadora para clasificar los grados de quemaduras y dar la decisión médica adecuada. </td>
                             </tr>
                             <tr>
-                            <td class="celda"></td>
-                                <td class="celda"></td>
-                                <td class="celda"></td>
+                            <td class="celda">Non-contact photoplethysmography (PPG)</td>
+                                <td class="celda">La señal PPG deriva de la interacción de la luz con los tejidos vascularizados. La intensidad de la señal PPG oscila con la interacción cambiante del tejido transmitido por la luz a medida que el volumen de sangre aumenta y disminuye con la presión del pulso [56].</td>
+                                <td class="celda">El sistema ha sido probado en muestras de heridas de cerdos. En este estudio se concluyó que al añadir imágenes reales y señales infrarrojas la precisión mejora al momento de diferenciar tejido muerto [57].</td>
                             </tr>
                             </tbody>
                     </table>
