@@ -104,6 +104,16 @@ height: auto;
 width: 200px;
 }
 
+#float-right{
+   float: right;
+   margin: 1rem 1rem 0rem 1rem;
+}
+
+#float-left{
+   float: left;
+   margin: 1rem 1rem 0rem 1rem;
+}
+
 #center{
     display: block;
     margin-left: auto;
