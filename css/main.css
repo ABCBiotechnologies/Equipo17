@@ -161,14 +161,12 @@ width: 200px;
 
 
 .img{
-    width: 40%;
     background-image: url(../image/img4.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .container-text{
-    width: 60%;
     padding: 50px;
     overflow-y: auto;
 }
