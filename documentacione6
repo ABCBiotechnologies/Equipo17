@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Documentación E6 - FBD</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <div class="s-pageheader">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                    <a class="logo" href="inicio.html">
+                        <img src="images/logo2.png" alt="Homepage">
+                    </a>
+                </div> <!-- end header__logo -->
+
+                <ul class="header__social">
+                    
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                
+                </ul> <!-- end header__social -->
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menú</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Navegación</h2>
+
+                    <ul class="header__nav">
+                        <li><a href="inicio.html" title="">Inicio</a></li>
+                        <li><a href="nosotros.html" title="">Nosotros</a></li>                        
+                        <li class="current" class="has-children">
+                            <a href="#0" title="">Entregables</a>
+                            <ul class="sub-menu">
+                            <li><a href="nosotros.html">Entregable 1</a></li>
+                            <li><a href="entregable2.html">Entregable 2</a></li>
+                            <li><a href="entregable3.html">Entregable 3</a></li>
+                            <li><a href="entregable4.html">Entregable 4</a></li>
+                            <li><a href="entregable5.html">Entregable 5</a></li>
+                            <li><a href="entregable6.html">Entregable 6</a></li>
+                            <li><a href="entregable7.html">Entregable 7</a></li>
+                            <li><a href="entregable8.html">Entregable 8</a></li>
+                            <li><a href="entregable9.html">Entregable 9</a></li>
+                            <li><a href="entregable10.html">Entregable 10</a></li>
+                            <li><a href="entregable11.html">Entregable 11</a></li>
+                            <li><a href="entregable12.html">Entregable 12</a></li>
+                            <li><a href="entregable13.html">Entregable 13</a></li>
+                            <li><a href="entregable14.html">Entregable 14</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="mconceptual.html" title="">Mapa Conceptual</a></li>
+                        <li><a href="bibliografia.html" title="">Bibliografía</a></li>
+
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+    </div> <!-- end s-pageheader -->
+
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content s-content--narrow">
+
+        <div class="row">
+
+            <div class="s-content__header col-full">
+                <h1 class="s-content__header-title">
+                    [E6] Documentación de la aplicación del Design Thinking y metodologia de diseño VDI2225</br></br>
+                </h1>
+            </div> <!-- end s-content__header -->
+            
+            <p align="justify">
+            En el documento actual se detalla la actividad que se hizo en la semana 6. También se explicará sobre la metodología de diseño VDI 2225 y su uso en el proyecto desarrollado.
+            </p>
+
+            <h3 align="justify">    
+            Aplicación del Design Thinking en el proyecto actual
+            </h3>
+
+            <p align="justify">
+            En esta semana, se siguió realizando el tercer paso (Idear) del Design Thinking. Al haber definido tres conceptos de solución se eligió uno el cual es: “Realidad aumentada para la capacitación de cirujanos plásticos en la identificación de la vitalidad del tejido post quemado”. Se eligió este concepto de solución ya que se considera que este es el más apropiado para resolver el problema definido. Al tener claro cual es el concepto de solución a desarrollar se empezó a definir las características de su diseño. Para llevar a cabo de manera idónea este proceso se hizo uso de una metodología de diseño llamada “VDI 2225” el cual consiste en un método de decisión optimizado al mínimo coste.
+            </p>
+            
+            <h3 align="justify"> 
+            ¿Qué son las metodologías de diseño?
+            </h3>
+
+            <p align="justify">
+            Las metodologías de diseño son una secuencia concreta de acciones para el diseño de sistemas técnicos que derivan su conocimiento de la ciencia del diseño, de la psicología cognitiva y de la experiencia práctica en diferentes campos [1].</br></br>
+            Dentro de todas las metodologías de diseño están los modelos de fase los cuales tienen la función estructurar el proceso de diseño en fases o etapas y la secuencia recomendada para llevarla a cabo [2].</br></br>
+            El VDI 2225 es un modelo de fase que optimiza el coste utilizado en el diseño. Este modelo de fase plantea los siguientes pasos para el diseño del producto [3]:
+            </p>
+            
+            <ul>
+              <li>Tabla de requerimientos: En la tabla de requerimientos se enumeran las características que debe tener el producto. Estas se dividen entre exigencias y deseos. Las exigencias son cualidades que debe tener obligatoriamente el producto final. Los deseos son propiedades que pueden o no estar en el producto final.</li>
+              <li>Entradas y Salidas: En este paso de la metodología se definen las entradas y salidas del sistema del producto. Las entradas son los elementos que el sistema (caja negra) puede disponer para su funcionamiento. Las salidas son los objetivos resueltos del sistema, es decir lo que busca realizar con su funcionamiento.</li>
+              <li>Esquema de funciones (No aplica en este proyecto): En el esquema de funciones se explica el funcionamiento del sistema, es decir se explican los procesos que se llevan a cabo para convertir las entradas en salidas.</li>
+              <li>Matriz morfológica (No aplica en este proyecto): En la matriz morfológica se enumeran los distintos componentes que pueden cumplir las funciones mencionadas en el esquema de funciones. Luego de ello se elaboran conceptos de solución los cuales consisten en la unión de los componentes según la secuencia de las funciones del sistema. </li>
+              <li>Evaluación de conceptos de solución: En este paso se evalúan los conceptos de solución hechos en la matriz morfológica según criterios técnicos y económicos. A cada concepto de solución se le da una puntuación del 0 al 5 en cada criterio técnico y económico según en qué grado satisface el criterio planteado. El concepto de solución que obtiene más puntaje al final de la evaluación es el idóneo a realizar.</li>
+              <li>Proyectos preliminares: En esta etapa se debe configurar todas las piezas, así como fijar su disposición entre ellas. Para poder proyectar adecuadamente se debe seguir las siguientes reglas básicas:</li>
+                •	Claridad: Uso adecuado de los conocimientos de la física y la tecnología relacionada con el dispositivo.
+                •	Simpleza: Economía en la fabricación y en el uso. Ejemplo: Fabricación simple, poco peso, bajos costos de mantenimiento y funcionamiento.
+                • Seguridad: Seguridad para las personas, máquinas y medio ambiente.
+              <li>Matrices de evaluación: Al tener diferentes proyectos preliminares se realizan matrices de evaluación técnica y económica. En cada matriz, a cada criterio técnico o económico se le da un valor de importancia (Gt y Ge) calculado a través de una comparación de importancia entre cada criterio. Las tablas siguientes muestran esa comparación y los valores Gt y Ge calculados. A cada proyecto preliminar se le da un valor (p) del 1 al 5 según como este satisface el criterio planteado. Se realiza una suma de los valores multiplicados (G*p) y se divide entre el valor que tendría un proyecto ideal. Si el valor obtenido es mayor a 0.7 es un proyecto para considerar, sino el proyecto evaluado es deficiente y queda descartado.</li>
+              
+              <img src="images/thumbs/featured/gtcomparacion.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
+              
+              <img src="images/thumbs/featured/gecomparacion.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
+              
+              <li>Proyecto Optimo: Se realiza una gráfica de valor económico(yi) versus valor técnico (xi) en el cual se pone los valores obtenidos en las matrices de evaluación. Los valores que se acerquen más a la gráfica lineal del proyecto ideal son los óptimos, mientras que los que se alejen más son los deficientes. Con ello se puede encontrar el proyecto optimo ya que el que se acerque más a la gráfica lineal satisface tanto los criterios técnicos como económicos.</li>
+            </ul>
+          
+            <h3 align="justify">
+            Referencias:
+            </h3>
+          
+            <p align="justify">
+            [1] Pahl, G., Beitz, W., Feldhusen, J., & Grote, K. Engineering design: a systematic approach, 3rd ed. London: Springer,2007</br>
+            [2] E. B. Romero, “Metodología para el diseño de máquinas adaptadas a comunidades en desarrollo,” 2015.</br>
+            [3] “Diseño de dispositivos biomédicos utilizando la metodología de diseño VDI 2225”, class notes for 1CAY41, Departamento de Ingeniería Biomédica, Universidad Cayetano Heredia, primavera 2019.
+            </p>
+
+            <p>
+                <a class="btn btn--stroke full-width" href="entregable6.html">REGRESAR</a>
+            </p>
+
+        </div> <!-- end row -->
+
+    </section> <!-- s-content -->
+
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Philosophy 2018</span> 
+                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
