@@ -165,18 +165,41 @@ function googleTranslateElementInit() {
                 Codigo utilizado para enviar una señal blueetooth al presionar un boton</br></br>
 
                 <pre><code>
-                &lt;!DOCTYPE HTML&gt;
-                &lt;HTML&gt;
-                &lt;HEAD&gt;
-                &lt;TITLE&gt; DEBES ESCRIBIR EL TITULO DE TU WEB &lt;/TITLE&gt;
-                &lt;META name="description" content="donde escribirás una breve descripción de la página"&gt;
-                &lt;META name="keywords" content="Aquí escribe las palabras clave separadas por una coma"&gt;
-                &lt;/HEAD&gt;
-                &lt;BODY&gt;
-                &lt;/BODY&gt;
-                &lt;/HTML&gt;
+                //Importacion de Librerias
+                #include <SoftwareSerial.h>
+
+                //Definicion de variables
+                #define rxPin 10 //el pin al cual esta conectado el rx ( el pin en el que recibir datos en serie)
+                #define txPin 11 //el pin al cual esta conectado el tx(el pin sobre el cual transmitir datos en serie)
+                #define BUTTON 7 //el pin de entrada donde el pulsador esta conectado
+                SoftwareSerial mipuerto =  SoftwareSerial ( rxPin , txPin ) ;
+                int val = 0; 
+
+                //Inicializacion de programa
+                void setup(){ //definimos entradas y salidas
+                Serial.begin(9600); //establecemos la velocidad de transmision de datos
+                mipuerto.begin(9600);
+                pinMode (rxPin, INPUT); 
+                pinMode (txPin, OUTPUT); 
+                pinMode(BUTTON,INPUT); //el boton es una entrada 
+                }
+
+                //Bucle
+                void loop(){ //acciones que el microcontrolador repite una y otra vez
+                val=digitalRead(BUTTON); //leer el valor de entrada y almacenarlo
+                Serial.write(val);
+
+                if(val==HIGH){ //Compruebe si la entrada es HIGH(boton pulsado)
+                 mipuerto.write("A");
+                }
+
+                else{
+                 mipuerto.write("B");
+                 ;
+                }
+
+                }
                 </code></pre>
-                
                 </p>
                 
                 <img src="images/arduino.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
