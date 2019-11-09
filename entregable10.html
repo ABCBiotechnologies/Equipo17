@@ -194,10 +194,80 @@ function googleTranslateElementInit() {
         </div> <!-- end row -->
 
     </section> <!-- end s-extra -->
-    
+
     <!--------------------------------------------------->
     
     <section class="s-extra" style="background-color: #FAFAFA;">
+
+        <div class="row top">
+            
+            <div class="col-full s-content__main">
+                
+                <h2 align="center">
+                    Programación en Arduino  
+                </h2>
+                
+                <h3 align="center">
+                Codigo utilizado para enviar una señal blueetooth al presionar un boton
+                </h3>
+                
+                <p align="justify">
+                El código del programa permite que al pulsar un botón el módulo Bluettooth HC-05 mande una señal al dispositivo conectado a este. La señal es la letra “A” si es que en caso se tiene pulsado el botón; en cambio, si no se presiona este botón la señal es la letra “B”. Se hace este código con el fin de que al conectarse el módulo principal (Bisturí) con el celular que está en el módulo secundario (Visor), el programa que se encarga de la realidad aumentada reciba una señal diferente en caso se presione o no el botón ya que este botón tendrá la función de “Deshacer” una acción previamente hecha en la simulación.</br></br>
+                    
+                <pre><code>
+                //Importacion de Librerias
+                #include<SoftwareSerial.h> 
+
+                //Definicion de variables
+                #define rxPin 10 //el pin al cual esta conectado el rx ( el pin en el que recibir datos en serie)
+                #define txPin 11 //el pin al cual esta conectado el tx(el pin sobre el cual transmitir datos en serie)
+                #define BUTTON 5 //el pin de entrada donde el pulsador esta conectado
+                SoftwareSerial mipuerto =  SoftwareSerial ( rxPin , txPin ) ;
+                int val = 0; 
+
+                //Inicializacion de programa
+                void setup(){ //definimos entradas y salidas
+                Serial.begin(9600); //establecemos la velocidad de transmision de datos
+                mipuerto.begin(9600);
+
+                //pinMode (rxPin, INPUT); 
+                //pinMode (txPin, OUTPUT); 
+                pinMode(BUTTON,INPUT); //el boton es una entrada 
+                }
+
+                //Bucle
+                void loop(){ //acciones que el microcontrolador repite una y otra vez
+                val=digitalRead(BUTTON); //leer el valor de entrada y almacenarlo
+                //Serial.write(val);
+
+                if(val==LOW){ //Compruebe si la entrada es HIGH(boton pulsado)
+                //Serial.println(val);
+
+                Serial.println("A");
+                mipuerto.write("A");
+                }
+
+                else{
+                Serial.println("B");
+                mipuerto.write("B");
+                ;
+                }
+
+                }
+                </code></pre>
+                </p>
+                
+                <img src="images/arduinoconnect.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
+
+            </div> <!-- end s-content__main -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-extra -->
+    
+    <!--------------------------------------------------->
+    
+    <section class="s-extra">
 
         <div class="row top">
             
