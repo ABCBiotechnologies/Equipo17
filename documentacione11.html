@@ -106,12 +106,12 @@ function googleTranslateElementInit() {
 
             <div class="s-content__header col-full">
                 <h1 class="s-content__header-title">
-                    [E11] Documentación de la aplicación del design thinking y tipos de manufactura.</br></br>
+                    [E11] Documentación de la aplicación del design thinking y del software de modelado Blender.</br></br>
                 </h1>
             </div> <!-- end s-content__header -->
             
             <p align="justify">
-            En el documento actual se detalla la actividad que se hizo en la semana 10. También se explicará las técnicas de manufactura que se utilizaran en el proyecto desarrollado.
+            En el documento actual se detalla la actividad que se hizo en la semana 11. También se explicará el uso de una herramienta esencial a la hora de modelar objetos 3D, esta herramienta es llamada: Blender. 
             </p>
 
             <h3 align="justify">
@@ -119,56 +119,59 @@ function googleTranslateElementInit() {
             </h3>
 
             <p align="justify">
-            En esta semana, se continuó realizando el cuarto paso del Design Thinking (Prototipar). Uno de los procesos más complicados al momento de prototipar es la manufactura (proceso de fabricación de un producto que se realiza con las manos o con ayuda de máquinas). Por ello existen diversos tipos de manufactura que se acomodan a las necesidades del prototipo a elaborar.
+            En esta semana se siguió realizando el cuarto paso (Prototipar) del Design Thinking. El objetivo del proyecto es realizar una simulación del desbridamiento quirúrgico de heridas por quemadura mediante la realidad aumentada. Por ello, resulta necesario modelar una herida por quemadura en 3D. Una herramienta eficiente a la hora de crear objetos en 3D es Blender.
             </p>
             
             <h3 align="justify">
-            Tipos de manufactura:
+            ¿Qué es Blender?
             </h3>
 
             <p align="justify">
-            La mayoría de las técnicas de fabricación se pueden clasificar en 3 grupos, los cuales son: (1)</br></br>
-            • Fabricación formativa: más adecuada para la producción de alto volumen de la misma pieza, que requiere una gran inversión inicial en herramientas (moldes), pero luego es capaz de producir piezas rápidamente y a un precio unitario muy bajo.
+            Blender es la suite de creación 3D gratuita y de código abierto. Admite la totalidad de la canalización 3D: modelado, aparejo, animación, simulación, renderizado, composición y seguimiento de movimiento, incluso edición de video y creación de juegos. Blender se adapta bien a individuos y pequeños estudios que se benefician de su proceso unificado de desarrollo y respuesta. (1)</br></br>
+            La versión de Blender que será utilizada para modelar la herida por quemadura es la versión 2.75. Sin embargo, ¿Cómo modelar una herida en Blender? Antes de saber cómo modelar un objeto en 3D, es necesario conocer la interfaz de Blender y que conocer las diferentes funciones que tiene.
             </p>
             
-            <img src="images/thumbs/featured/manu1.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
-            
-            <p align="justify">
-            • Fabricación sustractiva: se encuentra entre formativa y aditiva, siendo la más adecuada para piezas con geometrías relativamente simples, producidas en volúmenes bajos y medios, que generalmente están hechas de materiales funcionales (particularmente metal).
-            </p>
-            
-            <img src="images/thumbs/featured/manu2.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
-            
-            <p align="justify">
-            • Fabricación aditiva: más adecuada para diseños complejos de bajo volumen que los métodos formativos o sustractivos no pueden producir, o cuando se requiere un prototipo único y rápido.
-            </p>
-                
-            <img src="images/thumbs/featured/manu3.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
-    
-            <p align="justify">
-            Al momento de querer materializar un objeto 3D (previamente diseñado en una computadora), es necesario hacer uso de tecnologías de fabricación digital  
-            </p>    
-
             <h3 align="justify">
-            ¿Qué son las Tecnologías de Fabricación Digital?
+            Interfaz de Blender: (2)
             </h3>
             
+            <img src="images/thumbs/featured/blender1.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
+            
             <p align="justify">
-            Las Tecnologías de Fabricación (TFD) son un conjunto de tecnologías que permiten materializar una pieza, sistema, modelo, prototipo o series cortas, directamente de un archivo digital CAD 3D, en la mayoría de las veces con poca intervención de la mano del hombre, a través de una amplia variedad de técnicas, materiales y acabados. (2)</br></br>
-            Este tipo de tecnologías se clasifican en:</br></br>
-            1.	Tecnologías de Fabricación Digital Sustractiva: se caracterizan por el desbaste de material o corte a partir de un archivo CAD, que en los inicios eran 2D (dos dimensiones) y posteriormente se fueron integrando los archivos CAD 3D. Algunos ejemplos de estas tecnologías son: fresadoras (router CNC); tornos CNC; centros de mecanizado CNC; corte láser, al agua y por plasma; entre otros.</br>
-            2.	Tecnologías de Fabricación Digital Aditiva: se basan en un proceso de adición de capas de material, las cuales se van adhiriendo secuencialmente, una tras otra, hasta obtener el objeto físico correspondiente al archivo CAD 3D, enviado previamente desde una computadora. Algunos ejemplos de estas tecnologías son: estereolitografía (SLA), Deposición de Hilo Fundido (FDM); entre otros.
+            Una de las principales características del programa es que trabaja con ventanas flotantes, aunque a primera vista no lo parece. Cada ventana tiene su cabecera, en este caso se encuentra en la parte inferior de la ventana. Con la ventana información la cual esta en la parte superior se puede cambiar el tipo de ventana según lo que se necesite realizar.</br></br>
+            Otra función que nos permite la interfaz de Blender es la capacidad de poder duplicar ventanas en un mismo archivo, al duplicar una ventana la interfaz se ve de la siguiente manera:
             </p>
-
-            <img src="images/thumbs/featured/manu4.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
-
+            
+            <img src="images/thumbs/featured/blender2.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
+            
+            <h3 align="justify">
+            ¿Cómo crear un objeto 3D en el vacío en Blender? (2)
+            </p>
+            
+            <p align="justify">
+            Para ello debemos seguir los siguientes pasos:</br></br>
+            1.	Blender necesita partir de un objeto, para crear los vértices, se agrega un plano subdividido.</br>
+            2.	Se pulsa la tecla número 5 del teclado numérico para tener una vista ortogonal.</br>
+            3.	Se selecciona la tecla número 7 del teclado numérico para tener una vista desde arriba.</br>
+            4.	Se entra en modo edición y el plano subdividido desplácelo a una esquina, con la tecla A se deselecciona todo.</br>
+            5.	Para crear un vértice se tiene que tener que presionar Ctrol y se hace clic. Para ello el modo vértices debe estar activado.</br>
+            6.	También con la tecla E de extruir se puede ir agregando más vértices. Para cerrar lo bueno es utilizar el snap (el iman) seleccionando vértices.</br>
+            7.	A continuación, pulse la tecla A para deseleccionar todo, con la tecla B dibuje un nuevo marco y volvemos a seleccionar todos los vértices.</br>
+            8.	A continuación de la pestaña “Herramientas” del apartado “Remover” presione “Remover dobles”. Al hacerlo observamos un mensaje: “0 vértices removidos”, esto significa que los vértices se soldaron.</br>
+            9.	Ahora que ya tenemos los vértices nos interesa eliminar el plano porque si no seguirá siendo parte del objeto.</br>
+            10.	A continuación, presione la tecla A para deseleccionar todo y con la tecla B dibuje un marco para seleccionar todo el plano subdividido, seleccione la tecla X y elimine los vértices del plano.</br>
+            11.	Ahora si va al modo objeto veremos que el punto de rotación se encuentra dónde está el plano.</br>
+            12.	En el panel de la izquierda seleccione “Definir origen”. Y de este “Origen a la geometría”. Ahora el punto de rotación está en el centro de la figura que hemos creado.</br>
+            13.	Ahora para crear una malla en el objeto seleccione el menú estando en modo edición. De este, caras y por último “Rellenar”. Si ahora pulsa la tecla E obtiene en 3D la figura dibujada previamente</br>
+            </p>
+             
             <h3 align="justify">
             Referencias:
             </h3>
           
             <p align="justify">
-            1. Redwood B, Schöffer F, Garret B. The 3D Printing Handbook. 3D Hubs. 2017;304.</br>
-            2. Torreblanca Díaz D. Tecnologías de Fabricación Digital Aditiva, ventajas para la construcción de modelos, prototipos y series cortas en el proceso de diseño de productos. Iconofacto. 2016;12(18):118–43.</br>
+            1.	Sobre nosotros - blender.org [Internet]. [cited 2019 Nov 15]. Available from: https://www.blender.org/about/</br>
+            2.	Verdugo Zamora PM. Tutorial de Blender 2.75. Available from: www.peremanelv.com
             </p>
 
             <p>
