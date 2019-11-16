@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Documentación E11 - FBD</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <div class="s-pageheader">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                    <a class="logo" href="inicio.html">
+                        <img src="images/logo2.png" alt="Homepage">
+                    </a>
+                </div> <!-- end header__logo -->
+
+                <ul class="header__social">
+                    
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                
+                </ul> <!-- end header__social -->
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menú</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Navegación</h2>
+
+                    <ul class="header__nav">
+                        <li><a href="inicio.html" title="">Inicio</a></li>
+                        <li><a href="nosotros.html" title="">Nosotros</a></li>                        
+                        <li class="current" class="has-children">
+                            <a href="#0" title="">Entregables</a>
+                            <ul class="sub-menu">
+                            <li><a href="nosotros.html">Entregable 1</a></li>
+                            <li><a href="entregable2.html">Entregable 2</a></li>
+                            <li><a href="entregable3.html">Entregable 3</a></li>
+                            <li><a href="entregable4.html">Entregable 4</a></li>
+                            <li><a href="entregable5.html">Entregable 5</a></li>
+                            <li><a href="entregable6.html">Entregable 6</a></li>
+                            <li><a href="entregable7.html">Entregable 7</a></li>
+                            <li><a href="entregable8.html">Entregable 8</a></li>
+                            <li><a href="entregable9.html">Entregable 9</a></li>
+                            <li><a href="entregable10.html">Entregable 10</a></li>
+                            <li><a href="entregable11.html">Entregable 11</a></li>
+                            <li><a href="entregable12.html">Entregable 12</a></li>
+                            <li><a href="entregable13.html">Entregable 13</a></li>
+                            <li><a href="entregable14.html">Entregable 14</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="mconceptual.html" title="">Mapa Conceptual</a></li>
+                        <li><a href="bibliografia.html" title="">Bibliografía</a></li>
+
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+    </div> <!-- end s-pageheader -->
+
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content s-content--narrow">
+
+        <div class="row">
+
+            <div class="s-content__header col-full">
+                <h1 class="s-content__header-title">
+                    [E11] Documentación de la aplicación del design thinking y tipos de manufactura.</br></br>
+                </h1>
+            </div> <!-- end s-content__header -->
+            
+            <p align="justify">
+            En el documento actual se detalla la actividad que se hizo en la semana 10. También se explicará las técnicas de manufactura que se utilizaran en el proyecto desarrollado.
+            </p>
+
+            <h3 align="justify">
+            Aplicación del Design Thinking en el proyecto actual:
+            </h3>
+
+            <p align="justify">
+            En esta semana, se continuó realizando el cuarto paso del Design Thinking (Prototipar). Uno de los procesos más complicados al momento de prototipar es la manufactura (proceso de fabricación de un producto que se realiza con las manos o con ayuda de máquinas). Por ello existen diversos tipos de manufactura que se acomodan a las necesidades del prototipo a elaborar.
+            </p>
+            
+            <h3 align="justify">
+            Tipos de manufactura:
+            </h3>
+
+            <p align="justify">
+            La mayoría de las técnicas de fabricación se pueden clasificar en 3 grupos, los cuales son: (1)</br></br>
+            • Fabricación formativa: más adecuada para la producción de alto volumen de la misma pieza, que requiere una gran inversión inicial en herramientas (moldes), pero luego es capaz de producir piezas rápidamente y a un precio unitario muy bajo.
+            </p>
+            
+            <img src="images/thumbs/featured/manu1.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
+            
+            <p align="justify">
+            • Fabricación sustractiva: se encuentra entre formativa y aditiva, siendo la más adecuada para piezas con geometrías relativamente simples, producidas en volúmenes bajos y medios, que generalmente están hechas de materiales funcionales (particularmente metal).
+            </p>
+            
+            <img src="images/thumbs/featured/manu2.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
+            
+            <p align="justify">
+            • Fabricación aditiva: más adecuada para diseños complejos de bajo volumen que los métodos formativos o sustractivos no pueden producir, o cuando se requiere un prototipo único y rápido.
+            </p>
+                
+            <img src="images/thumbs/featured/manu3.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
+    
+            <p align="justify">
+            Al momento de querer materializar un objeto 3D (previamente diseñado en una computadora), es necesario hacer uso de tecnologías de fabricación digital  
+            </p>    
+
+            <h3 align="justify">
+            ¿Qué son las Tecnologías de Fabricación Digital?
+            </h3>
+            
+            <p align="justify">
+            Las Tecnologías de Fabricación (TFD) son un conjunto de tecnologías que permiten materializar una pieza, sistema, modelo, prototipo o series cortas, directamente de un archivo digital CAD 3D, en la mayoría de las veces con poca intervención de la mano del hombre, a través de una amplia variedad de técnicas, materiales y acabados. (2)</br></br>
+            Este tipo de tecnologías se clasifican en:</br></br>
+            1.	Tecnologías de Fabricación Digital Sustractiva: se caracterizan por el desbaste de material o corte a partir de un archivo CAD, que en los inicios eran 2D (dos dimensiones) y posteriormente se fueron integrando los archivos CAD 3D. Algunos ejemplos de estas tecnologías son: fresadoras (router CNC); tornos CNC; centros de mecanizado CNC; corte láser, al agua y por plasma; entre otros.</br>
+            2.	Tecnologías de Fabricación Digital Aditiva: se basan en un proceso de adición de capas de material, las cuales se van adhiriendo secuencialmente, una tras otra, hasta obtener el objeto físico correspondiente al archivo CAD 3D, enviado previamente desde una computadora. Algunos ejemplos de estas tecnologías son: estereolitografía (SLA), Deposición de Hilo Fundido (FDM); entre otros.
+            </p>
+
+            <img src="images/thumbs/featured/manu4.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
+
+            <h3 align="justify">
+            Referencias:
+            </h3>
+          
+            <p align="justify">
+            1. Redwood B, Schöffer F, Garret B. The 3D Printing Handbook. 3D Hubs. 2017;304.</br>
+            2. Torreblanca Díaz D. Tecnologías de Fabricación Digital Aditiva, ventajas para la construcción de modelos, prototipos y series cortas en el proceso de diseño de productos. Iconofacto. 2016;12(18):118–43.</br>
+            </p>
+
+            <p>
+                <a class="btn btn--stroke full-width" href="entregable10.html">REGRESAR</a>
+            </p>
+
+        </div> <!-- end row -->
+
+    </section> <!-- s-content -->
+
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Philosophy 2018</span> 
+                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
