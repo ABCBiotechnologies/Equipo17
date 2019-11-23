@@ -224,53 +224,47 @@ function googleTranslateElementInit() {
                 </h3>
                 
                 <p align="justify">
-                El código del programa permite que al pulsar un botón el módulo Bluettooth HC-05 mande una señal al dispositivo conectado a este. La señal es la letra “A” si es que en caso se tiene pulsado el botón; en cambio, si no se presiona este botón la señal es la letra “B”. Se hace este código con el fin de que al conectarse el módulo principal (Bisturí) con el celular que está en el módulo secundario (Visor), el programa que se encarga de la realidad aumentada reciba una señal diferente en caso se presione o no el botón ya que este botón tendrá la función de “Deshacer” una acción previamente hecha en la simulación.</br></br>
+                El siguiente código sirve para destruir un objeto en la simulación. Al poner este código en un objeto hace que este al entrar en contacto con otro cuerpo al cual le demos masa en sus características este se destruya y desaparezca de la simulación.</br></br>
                     
                 <pre><code>
-                //Importacion de Librerias
-                #include<SoftwareSerial.h> 
+                using System.Collections;
+                using System.Collections.Generic;
+                using UnityEngine;
 
-                //Definicion de variables
-                #define rxPin 10 //el pin al cual esta conectado el rx ( el pin en el que recibir datos en serie)
-                #define txPin 11 //el pin al cual esta conectado el tx(el pin sobre el cual transmitir datos en serie)
-                #define BUTTON 5 //el pin de entrada donde el pulsador esta conectado
-                SoftwareSerial mipuerto =  SoftwareSerial ( rxPin , txPin ) ;
-                int val = 0; 
+                public class destruirW : MonoBehaviour
+                {
 
-                //Inicializacion de programa
-                void setup(){ //definimos entradas y salidas
-                Serial.begin(9600); //establecemos la velocidad de transmision de datos
-                mipuerto.begin(9600);
-
-                //pinMode (rxPin, INPUT); 
-                //pinMode (txPin, OUTPUT); 
-                pinMode(BUTTON,INPUT); //el boton es una entrada 
+                    void OnTriggerEnter(Collider other)
+                    {
+                        if (other.tag == "Player")
+                        {
+                            Destroy(gameObject);
+                        }
+                    }
                 }
+                </code></pre>
+                </p>
+    
+                <p align="justify">
+                El siguiente código al ser puesto en un objeto 3D permite mover éste dentro de la simulación mientras se esté presionando con el clic derecho del mouse. Es necesario incluir funciones como "Event Systems" para que funcione de manera correcta.</br></br>
+                    
+                <pre><code>
+                using UnityEngine;
+                using UnityEngine.EventSystems;
+                public class DragScene : MonoBehaviour, IDragHandler
+                {
+                    public float z = 0.0f;
+                    public void OnDrag(PointerEventData eventData)
+                    {
+                        Vector3 mousePosition = Input.mousePosition;
+                        mousePosition.z = z;
 
-                //Bucle
-                void loop(){ //acciones que el microcontrolador repite una y otra vez
-                val=digitalRead(BUTTON); //leer el valor de entrada y almacenarlo
-                //Serial.write(val);
-
-                if(val==LOW){ //Compruebe si la entrada es HIGH(boton pulsado)
-                //Serial.println(val);
-
-                Serial.println("A");
-                mipuerto.write("A");
-                }
-
-                else{
-                Serial.println("B");
-                mipuerto.write("B");
-                ;
-                }
-
+                        transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
+                    }
                 }
                 </code></pre>
                 </p>
                 
-                <img src="images/arduinoconnect.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
-
             </div> <!-- end s-content__main -->
 
         </div> <!-- end row -->
