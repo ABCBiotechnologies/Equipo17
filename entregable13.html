@@ -234,21 +234,22 @@ function googleTranslateElementInit() {
                 </h3>
                 
                 <p align="justify">
-                El siguiente código sirve para ocultar un objeto en la simulación. Al poner este código en un objeto hace que este al entrar en contacto con otro cuerpo al cual le demos masa en sus características este se oculte y desaparezca de la simulación.</br></br>
+                Hide (Ocultar): Este código sirve para ocultar el objeto al momento de tener contacto con otro (bisturí).</br></br>
                     
                 <pre><code>
                 using System.Collections;
                 using System.Collections.Generic;
                 using UnityEngine;
 
-                public class destruirW : MonoBehaviour
+                public class Hide : MonoBehaviour
                 {
-
+                    public GameObject TreeGroups;
                     void OnTriggerEnter(Collider other)
                     {
+                        Renderer rend = TreeGroups.GetComponent<Renderer>();
                         if (other.tag == "Player")
                         {
-                            Destroy(gameObject);
+                            rend.enabled = false;
                         }
                     }
                 }
@@ -256,20 +257,23 @@ function googleTranslateElementInit() {
                 </p>
     
                 <p align="justify">
-                El siguiente código al ser puesto en un objeto 3D permite mover éste dentro de la simulación mientras se esté presionando con el clic derecho del mouse. Es necesario incluir funciones como "Event Systems" para que funcione de manera correcta.</br></br>
+                Show (Mostrar): Este código sirve para mostrar el objeto previamente ocultado al momento de presionar la tecla “W”.</br></br>
                     
                 <pre><code>
+                using System.Collections;
+                using System.Collections.Generic;
                 using UnityEngine;
-                using UnityEngine.EventSystems;
-                public class DragScene : MonoBehaviour, IDragHandler
-                {
-                    public float z = 0.0f;
-                    public void OnDrag(PointerEventData eventData)
-                    {
-                        Vector3 mousePosition = Input.mousePosition;
-                        mousePosition.z = z;
 
-                        transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
+                public class Show : MonoBehaviour
+                {
+                    public GameObject TreeGroups;
+                    void Update()
+                    {
+                        Renderer rend = TreeGroups.GetComponent<Renderer>();
+                        if (Input.GetKey(KeyCode.W))
+                        {
+                            rend.enabled = true;
+                        }
                     }
                 }
                 </code></pre>
