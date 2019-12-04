@@ -154,11 +154,11 @@ function googleTranslateElementInit() {
             <div class="col-full s-content__main">
                 
                 <h2 align="center">
-                    Maqueta digital de Quemadura  
+                    Modulo Principal
                 </h2>
                 
                 <h3 align="center">
-                Modelos de quemadura 3D, modelado en Blender
+                Bisturí 3.0
                 </h3>
                                 
                 <div class="row half-bottom">
@@ -166,14 +166,14 @@ function googleTranslateElementInit() {
                     <div class="col-six tab-full">
 
                         <h5 align="center">
-                        Primera y segunda capa de quemadura
+                        Ensamble final
                         </h5>
 
-                        <img src="images/quemadura1.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
+                        <img src="images/bisturi301.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
 
                         <p align="center">
                         <small>
-                        <b>Descripción:</b> .
+                        <b>Descripción:</b>Modelo final del bisturi, con boton para realizar la accion "back" (enviar señal via bluetooth y ejecutar en Unity la accion Back).
                         </small>
                         </p>
 
@@ -184,14 +184,14 @@ function googleTranslateElementInit() {
                     <div class="col-six tab-full">
 
                         <h5 align="center">
-                        Quemadura vista superficial
+                        Componentes internos (PCB)
                         </h5>
 
-                        <img src="images/quemadura2.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
+                        <img src="images/bisturi302.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center">
 
                         <p align="center">
                         <small>
-                        <b>Descripción:</b> .
+                        <b>Descripción:</b>Componentes internos ensamblados, mediante el PCB mostrado en entregables anteriores.
                         </small>
                         </p>
 
@@ -200,6 +200,16 @@ function googleTranslateElementInit() {
                     </div>
 
                 </div> <!-- end row -->
+                
+                <h5 align="center">
+                Video: funcionamiento del modulo principal
+                </h5>
+                        
+                <div class="video-container">
+                    <video controls preLoad>
+                        <source src="media/bluetooth.mp4" type="video/mp4">
+                    </video>
+                </div>
     
             </div> <!-- end s-content__main -->
 
@@ -220,11 +230,11 @@ function googleTranslateElementInit() {
                 </h2>
                 
                 <h3 align="center">
-                Realidad Aumentada: Codificación en la interfaz Unity (Primeros Códigos)
+                Realidad Aumentada: Codificación en la interfaz Unity
                 </h3>
                 
                 <p align="justify">
-                El siguiente código sirve para destruir un objeto en la simulación. Al poner este código en un objeto hace que este al entrar en contacto con otro cuerpo al cual le demos masa en sus características este se destruya y desaparezca de la simulación.</br></br>
+                El siguiente código sirve para ocultar un objeto en la simulación. Al poner este código en un objeto hace que este al entrar en contacto con otro cuerpo al cual le demos masa en sus características este se oculte y desaparezca de la simulación.</br></br>
                     
                 <pre><code>
                 using System.Collections;
@@ -243,22 +253,6 @@ function googleTranslateElementInit() {
                     }
                 }
                 </code></pre>
-                </p>
-    
-                <h5 align="center">
-                Función Destroy en Unity
-                </h5>
-                        
-                <div class="video-container">
-                    <video controls preLoad>
-                        <source src="media/unitydestroy.mp4" type="video/mp4">
-                    </video>
-                </div>
-                        
-                <p align="center">
-                <small>
-                <b>Descripción:</b> Presentación del funcionamiento de la función destroy programada en Unity, la cual elimina secciones de la quemadura (representada como una matriz de cubos) a medida que el cilindro del video se posiciona sobre ellas.
-                </small>
                 </p>
     
                 <p align="justify">
@@ -280,37 +274,22 @@ function googleTranslateElementInit() {
                 }
                 </code></pre>
                 </p>
-                
-            </div> <!-- end s-content__main -->
-
-        </div> <!-- end row -->
-
-    </section> <!-- end s-extra -->
     
-    <!--------------------------------------------------->
-    
-    <section class="s-extra">
-
-        <div class="row top">
-            
-            <div class="col-full s-content__main">
-                
-                <h2 align="center">
-                    Diseño del PCB  
-                </h2>
-                
-                <h3 align="center">
-                Diseño del PCB del modulo principal:  PCB Esquematico 2.0
-                </h3>
-                
-                <p align="justify">
-                PCB: La placa del circuito impreso que usaremos servirá para integrar los siguientes componentes a través una superficie de material conductor en la cual se diseñaran los circuitos:</br></br>
-                1. Chip microcontrolador ATmega328-AU</br>
-                2. Pulsador</br>
-                3. Módulo cargador de bateria lipo
+                <h5 align="center">
+                Función Hide and Back en Unity
+                </h5>
+                        
+                <div class="video-container">
+                    <video controls preLoad>
+                        <source src="media/unity.mp4" type="video/mp4">
+                    </video>
+                </div>
+                        
+                <p align="center">
+                <small>
+                <b>Descripción:</b> Presentación del funcionamiento de la función Hide and Back programada en Unity, la cual oculta secciones de la quemadura (representada como una matriz de cubos) a medida que el cilindro del video se posiciona sobre ellas. Posteriormente, al presionar la letra W, las secciones regresan a ser visibles.
+                </small>
                 </p>
-                
-                <img src="images/pcb10.jpg" sizes="(max-width: 2000px) 100vw, 2000px" alt="" id="center"></br></br>
                 
             </div> <!-- end s-content__main -->
 
